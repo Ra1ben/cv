@@ -5,8 +5,8 @@ $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['user_name'];
-$phone = $_POST['user_email'];
-$email = $_POST['user_text'];
+$email = $_POST['user_email'];
+$text = $_POST['user_text'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
