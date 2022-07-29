@@ -11,7 +11,7 @@ $text = $_POST['user_text'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'smtp-relay.gmail.com';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'p.raiben555@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = '1927p1927r'; // Ваш пароль от почты с которой будут отправляться письма
